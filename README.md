@@ -1,2 +1,1 @@
-# random-quote-generator
-generate some random quotes
+I created this app just for timepass this app generate random quote
