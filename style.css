@@ -1,0 +1,51 @@
+body {
+  background: url("bg.jpg");
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.main-section {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  box-shadow: 0 0 10px #fff;
+}
+#main-quote {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+#author {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: right;
+  padding: 1rem;
+  margin-right: 10px;
+}
+#btn {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 1rem;
+  transition: 0.3s;
+  text-align: center;
+}
